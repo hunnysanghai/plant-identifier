@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+/* General Styles */
+.container {
+  max-width: 600px; /* Adjust max width for desktop */
+  margin: auto;
+  padding: 16px;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .button {
+    width: 100%; /* Full width buttons on mobile */
+    margin-bottom: 10px; /* Space between buttons */
+  }
+
+  video {
+    width: 100%; /* Full width video on mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  canvas {
+    display: none; /* Hide canvas on mobile */
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 601px) {
+  .button {
+    width: auto; /* Default width for desktop */
+  }
+
+  video {
+    width: 50%; /* Adjust video size for desktop */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
