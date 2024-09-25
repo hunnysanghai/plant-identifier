@@ -68,8 +68,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-- GitHub: [your-github-profile](https://github.com/hunnysanghai)
-
+- GitHub: (https://github.com/hunnysanghai)
 ---
 
 This README includes all the necessary sections to showcase your project professionally. You can update the placeholders with your information and any additional details as needed!
