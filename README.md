@@ -69,6 +69,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 - GitHub: (https://github.com/hunnysanghai)
----
-
-This README includes all the necessary sections to showcase your project professionally. You can update the placeholders with your information and any additional details as needed!
