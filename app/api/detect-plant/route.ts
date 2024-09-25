@@ -14,7 +14,7 @@ interface PlantInfo {
   diagnosis: string;
 }
 
-const genAI = new GoogleGenerativeAI("AIzaSyAsoXFxl4AQvUmYI5jGtfzgsISro0f0ONI");
+const genAI = new GoogleGenerativeAI({Your API Key});
 
 export async function POST(request: Request) {
   try {
